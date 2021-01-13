@@ -16,7 +16,7 @@ db.once('open', () => console.log('Connected to mongoose'));
 
 app.use(cors());
 
-const indexRouter = require('./routes/index');
+const indexRouter = require('../routes/index');
 
 app.use('/', indexRouter);
 
