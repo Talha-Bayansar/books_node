@@ -1,1 +1,1 @@
-web: node /booksbackend/server.js
+web: node /server.js
