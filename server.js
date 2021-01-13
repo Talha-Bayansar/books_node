@@ -1,4 +1,6 @@
-require('dotenv').config();
+if (process.env.NODE_URL !== 'production') require('dotenv').config();
+
+// brew services stop mongodb-community@4.4 --> to stop mongodb service
 
 const express = require('express');
 const cors = require('cors');
